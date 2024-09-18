@@ -10,19 +10,195 @@
         * {
             font-family: "Inter", sans-serif;
         }
+
+        .container {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .atas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            background-image: url(background.jpg);
+            background-position: center center;
+            background-size: 700px 400px;
+            background-repeat: no-repeat;
+        }
+
+        .avatar {
+            align-items: center;
+            margin-top: 100px;
+            width: 100px;
+            border-radius: 60px;
+            border: solid 3px green;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .profile h1 {
+            font-size: medium;
+            margin-right: 5px;
+        }
+
+        .profile img {
+            width: 20px;
+        }
+
+        .info {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 5px;
+            gap: 10px;
+        }
+
+        .info img {
+            width: 20px;
+            margin-bottom: -5px;
+        }
+
+        .info span {
+            color: gray;
+        }
+
+        .bawah {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+        }
+
+        .kiri {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+        }
+
+        .kiri img {
+            width: 15px;
+            margin-bottom: -3px;
+        }
+
+        .text3 span {
+            color: blue;
+        }
+
+        .kanan {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        .btn1 { 
+            padding: 5px;
+            margin-left: 360px;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+        }
+
+        .btn1 span {
+            margin-top: -5px;
+        }
+
+        .btn1 img {
+            width: 20px;
+            margin-bottom: -3px;
+        }
+
+        .btn2 img {
+            width: 20px;
+            margin-bottom: -3px;
+            border-radius: 3px;
+            border: 1px solid gray;
+            padding: 4px;
+        }
+
+        .btn3 img {
+            width: 20px;
+            margin-bottom: -3px;
+            border-radius: 3px;
+            border: 1px solid gray;
+            padding: 4px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="atas">
-            <div class="profile"></div>
-            <div class="info"></div>
+            <img src="woman.jpg" class="avatar">
+            <div class="profile">
+                <h1>Jenny Klabber</h1>
+                <img src="verifikasi.png">
+            </div>
+            <div class="info">
+                <div class="info1">
+                    <img src="icon1.jpg" alt="">
+                    <span>KeenThemes</span>
+                </div>
+                <div class="info2">
+                    <img src="icon2.jpg" alt="">
+                    <span>SF, Bay Area</span>
+                </div>
+                <div class="info3">
+                    <img src="icon3.jpg" alt="">
+                    <span>jenny@kteam.com</span>
+                </div>
+            </div>
         </div>
         
         <div class="bawah">
-            <div class="left"></div>
-            <div class="right"></div>
+            <div class="kiri">
+                <div class="text1">
+                    <span>Profiles</span>
+                    <img src="icon4.jpg" alt="">
+                </div>
+                <div class="text2">
+                    <span>Projects</span>
+                    <img src="icon4.jpg" alt="">
+                </div>
+                <div class="text3">
+                    <span>Works</span>
+                </div>
+                <div class="text4">
+                    <span>Teams</span>
+                </div>
+                <div class="text5">
+                    <span>Network</span>
+                </div>
+                <div class="text6">
+                    <span>Activity</span>
+                </div>
+                <div class="text7">
+                    <span>More</span>
+                    <img src="icon4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="kanan">
+                <div class="btn1">
+                    <img src="icon5.png" alt=""> 
+                    <span>Connect</span>
+                </div>
+                <div class="btn2">
+                    <img src="icon6.png" alt="">
+                </div>
+                <div class="btn3">
+                    <img src="icon7.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
+    <hr>
 </body>
 </html>
