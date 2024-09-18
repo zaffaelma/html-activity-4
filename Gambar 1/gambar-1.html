@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Gambar 1</title>
+    <style> 
+        * {
+            font-family: "Inter", sans-serif;
+        }
+        
+        .container {
+            width: 400px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px black;
+            padding: 20px;
+            margin: auto;
+            
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: -15px;
+        }
+        
+        .header img {
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+        }
+
+        .header h1 {
+            margin-bottom: -15px;
+        }
+
+        .header p {
+            color: gray;
+        }
+        
+        .wrapper-task {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .task {
+            display: flex;
+        }
+
+        .task img {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            margin-top: 7px;
+            margin-bottom: 15px;
+        }
+
+        .isi {
+            margin-left: 10px;
+        }
+
+        .isi p {
+            margin: 5px;
+        }
+
+        .text {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Task Overview</h1>
+                <p>Pending 10 tasks</p>
+            </div>            
+            <img src="icon1.png">
+        </div>
+
+        <div class="wrapper-task">
+            <div class="task">
+                <img src="icon2.jpg">
+                <div class="isi">
+                    <p><b>Project Briefing</b></p>
+                    <p class="text">Project Manager</p>
+                </div>
+            </div>
+
+            <div class="task">
+                <img src="icon3.png">
+                <div class="isi">
+                    <p><b>Concept Design</b></p>
+                    <p class="text">Art Director</p>
+                </div>
+            </div>
+
+            <div class="task">
+                <img src="icon4.png">
+                <div class="isi">
+                    <p><b>Functional Logics</b></p>
+                    <p class="text">Lead Developer</p>
+                </div>
+            </div>
+
+            <div class="task">
+                <img src="icon5.png">
+                <div class="isi">
+                    <p><b>Development</b></p>
+                    <p class="text">DevOps</p>
+                </div>
+            </div>
+
+            <div class="task">
+                <img src="icon6.png">
+                <div class="isi">
+                    <p><b>Testing</b></p>
+                    <p class="text">QA Managers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
